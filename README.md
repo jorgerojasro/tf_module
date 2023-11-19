@@ -4,7 +4,7 @@
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.3.3 |
 | <a name="requirement_argocd"></a> [argocd](#requirement\_argocd) | >=2.2.6 |
 | <a name="requirement_google"></a> [google](#requirement\_google) | >=4.62.0 |
 | <a name="requirement_google-beta"></a> [google-beta](#requirement\_google-beta) | >=4.62.0 |
