@@ -1,0 +1,48 @@
+# Local .terraform directories
+**/.terraform/*
+**/.terraform/
+.terraform/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore SA Key
+
+**/auth_project.json
+**/gcs_state.json
+auth_project.json
+gcs_state.json
+
+**/creds.json
+creds.json
+
+*.terraform.lock.hcl
+*.kubeconfig
+*kubeconfig
+
+# Ignore out files on plan
+*.out
+.infracost/
+*.tfplan
+.envr*
+.secrets
+*.hcl
+.terraform.lock.hcl
+.tflint.hcl
+
+.DS_Store
