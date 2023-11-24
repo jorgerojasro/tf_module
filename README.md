@@ -1,16 +1,16 @@
 # tf-module
 
-- Instalar versión
+- Instalar pre-commit
 pip install pre-commit
 brew install pre-commit
 
 - Verificar versión
 pre-commit --version
 
-- Instalar los hooks en git
+- Instalar los hooks en el repositorio git local
 pre-commit install
 
-- Correr los hooks sin ejecutar el commit
+- Correr los hooks sin ejecutar el commit (opcional)
 pre-commit run --all-files
 
 
