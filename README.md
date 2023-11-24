@@ -1,17 +1,17 @@
 # tf-module
 
 - Instalar pre-commit
-pip install pre-commit
-brew install pre-commit
+    - pip install pre-commit
+    - brew install pre-commit
 
 - Verificar versión
-pre-commit --version
+    - pre-commit --version
 
 - Instalar los hooks en el repositorio git local
-pre-commit install
+    - pre-commit install
 
 - Correr los hooks sin ejecutar el commit (opcional)
-pre-commit run --all-files
+    - pre-commit run --all-files
 
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
