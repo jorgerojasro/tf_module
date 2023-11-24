@@ -1,10 +1,24 @@
 # tf-module
+
+- Instalar versión
+pip install pre-commit
+brew install pre-commit
+
+- Verificar versión
+pre-commit --version
+
+- Instalar los hooks en git
+pre-commit install
+
+- Correr los hooks sin ejecutar el commit
+pre-commit run --all-files
+
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.3.3 |
 | <a name="requirement_argocd"></a> [argocd](#requirement\_argocd) | >=2.2.6 |
 | <a name="requirement_google"></a> [google](#requirement\_google) | >=4.62.0 |
 | <a name="requirement_google-beta"></a> [google-beta](#requirement\_google-beta) | >=4.62.0 |
@@ -14,8 +28,8 @@
 
 | Name | Version |
 |------|---------|
-| <a name="provider_argocd"></a> [argocd](#provider\_argocd) | 6.0.3 |
-| <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | 2.23.0 |
+| <a name="provider_argocd"></a> [argocd](#provider\_argocd) | >=2.2.6 |
+| <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | >=2.20.0 |
 
 ## Modules
 
